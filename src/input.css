@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* ct-custom */
 .ct-top-menu-item{
-    @apply py-1 hover:text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:hover:w-full after:bg-light-coffee after:transition-all after:ease-in-out after:duration-300;
+    @apply py-1 hover:text-gray-800 relative after:xl:absolute after:xl:bottom-0 after:xl:left-0 after:xl:h-0.5 after:xl:w-0 after:xl:hover:w-full after:xl:bg-light-coffee after:xl:transition-all after:xl:ease-in-out after:xl:duration-300;
+}
+
+.ct-top-menu-item-active{
+    @apply text-gray-900;
 }
 
 .ct-icon{
@@ -13,3 +18,8 @@
 .ct-badge-circle{
     @apply text-xs text-center rounded-full px-1.5;
 }
+
+.ct-topmenu-expanded{
+    @apply absolute top-10 z-10 w-full bg-white text-center animate-slideDown;
+}
+

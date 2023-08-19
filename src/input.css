@@ -5,7 +5,7 @@
 
 /* ct-custom */
 .ct-top-menu-item{
-    @apply py-1 hover:text-gray-800 relative after:xl:absolute after:xl:bottom-0 after:xl:left-0 after:xl:h-0.5 after:xl:w-0 after:xl:hover:w-full after:xl:bg-light-coffee after:xl:transition-all after:xl:ease-in-out after:xl:duration-300;
+    @apply py-1 hover:text-gray-800 relative after:xl:absolute after:xl:bottom-0 after:xl:left-0 after:xl:h-0.5 after:xl:w-0 after:xl:hover:w-full after:xl:bg-coffee-200 after:xl:transition-all after:xl:ease-in-out after:xl:duration-300;
 }
 
 .ct-top-menu-item-active{
@@ -22,4 +22,15 @@
 .ct-topmenu-expanded{
     @apply absolute top-10 z-10 w-full bg-white text-center animate-slideDown;
 }
+/* subheadline */
+.ct-subheadline{
+    @apply  flex justify-center items-center mb-24;
+}
 
+.ct-subheadline-deco-line{
+    @apply w-8 h-px bg-gray-200;
+}
+
+.ct-subheadline-label{
+    @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-sm text-center;
+}

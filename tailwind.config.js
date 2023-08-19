@@ -4,7 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'light-coffee':'#c89f94'
+        'coffee': {
+            50:'#e8d6b0',
+            200: '#c89f94',
+            400:'#A25f4b',
+            600:'#744838',
+        }
       },
       fontFamily:{
         Karla:['Karla', 'sans-serif']

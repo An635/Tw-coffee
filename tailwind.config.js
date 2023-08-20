@@ -19,9 +19,14 @@ module.exports = {
           '0%': {transform: 'translateY(-100%)'},
           '100%': {transform: 'translateY(0)' },
         },
+        fadeInt:{
+          from:{ opacity:0},
+          to:{ pacity: 1 }
+        }
       },
       animation: {
-        slideDown:'slideDown .4s ease-in-out',
+        slideDown:'slideDown .5s ease-in-out',
+        fadeInt: 'fadeInt .5s ease-in-out'
       }
     }
   },

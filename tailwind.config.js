@@ -3,6 +3,9 @@ module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
+      screens:{
+        'xs': '480px'
+      },
       colors:{
         'coffee': {
             50:'#e8d6b0',

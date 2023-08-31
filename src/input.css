@@ -24,7 +24,7 @@
 }
 /* subheadline */
 .ct-subheadline{
-    @apply  flex justify-center items-center mb-24;
+    @apply flex justify-center items-center mb-24;
 }
 
 .ct-subheadline-deco-line{

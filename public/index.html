@@ -11,8 +11,9 @@
 </head>
 <body>
    <div id="root">
-        <div class="content-wrapper max-w-screen-2xl text-base mx-auto px-8 bg-slate-200 font-Karla">
-            <header class="p-6 mx-auto">
+        <div class="content-wrapper text-base mx-auto px-8 bg-slate-200 font-Karla"> 
+            <!-- content-wrapper 1 -->
+            <header class="p-6 mx-auto w-full max-w-screen-2xl">
                 <nav class="flex flex-grow justify-between items-center relative">
                     <div class="logo basis-2/6 text-center text-xl font-bold cursor-pointer">Coffee.</div>
 
@@ -60,9 +61,7 @@
                     </div>
                 </nav>
             </header>
-
-            <main>
-                <div class="slider h-[530px] bg-[url('https://images.unsplash.com/photo-1541750072-95ea63c38b71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2030&q=80')] bg-cover bg-no-repeat bg-top mb-24">
+                <div class="slider h-[530px] w-full max-w-screen-2xl bg-[url('https://images.unsplash.com/photo-1541750072-95ea63c38b71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2030&q=80')] bg-cover bg-no-repeat bg-top mb-24">
                    <div class="w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-80">
                         <div class="mx-16 text-white text-center">
                             <div class="uppercase mb-4">Best place to buy coffee </div>
@@ -165,6 +164,7 @@
                     <div class="ct-subheadline-label ">More Products</div>
                     <div class="ct-subheadline-deco-line"></div>
                 </div>
+                <!-- more-product -->
                 <div class="more-produces w-[95%] xl:w-[65%] mx-auto mb-16">
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-3">
                          <div class="ct-product-card">
@@ -329,7 +329,7 @@
 
                 <div class="ct-subheadline">
                     <div class="ct-subheadline-deco-line "></div>
-                    <div class="ct-subheadline-label ">Buy 2 mugs add get a coffee magazine free</div>
+                    <div class="ct-subheadline-label">Buy 2 mugs add get a coffee magazine free</div>
                     <div class="ct-subheadline-deco-line"></div>
                 </div>
                 <!-- start-magazine -->
@@ -355,10 +355,11 @@
                 <!-- end-coffee-magazine -->
                 <!-- start-parallax -->
 
-                <div class="ct-parallax bg-[url('https://images.unsplash.com/photo-1515696955266-4f67e13219e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjk1fHxjb2ZmZWV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60')] bg-cover bg-no-repeat bg-center h-[400px] md:h-[500px] mb-6 bg-fixed w-[100vw] relative left-[calc(-50vw+50%)] "></div>
-
+                <div class="ct-parallax bg-[url('https://images.unsplash.com/photo-1515696955266-4f67e13219e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjk1fHxjb2ZmZWV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60')] bg-cover bg-no-repeat bg-center h-[400px] md:h-[500px] mb-6 bg-fixed w-[100vw] relative left-[calc(-50vw+50%)]"></div>
+               
                 <!-- end-parallax -->
-
+       
+            <!-- content-wrapper 2 -->
                 <div class="ct-subheadline">
                     <div class="ct-subheadline-deco-line "></div>
                     <div class="ct-subheadline-label ">Behind the mugs, lifestyle stories</div>
@@ -445,7 +446,7 @@
 
                 </div>
                 <!-- end-lifestyle -->
-                <div class="subs h-[350px] bg-slate-800 flex flex-col justify-center items-center mb-24">
+                <div class="subs h-[350px] w-full max-w-screen-2xl bg-slate-800 flex flex-col justify-center items-center mb-24">
                         <div class="flex justify-center items-center mb-4">
                             <div class="w-8 h-px bg-gray-700"></div>
                             <div class="uppercase mx-4 tracking-widest text-gray-400 font-bold text-sm text-center">Sign up and get free coffee bags</div>
@@ -462,9 +463,6 @@
                         </div>
                 </div>
                 <!-- end-subs -->
-
-            </main>
-
             <footer class="w-[95%] xl:w-[65%] mx-auto pb-24 text-gray-500 text-base">
                      <div class="flex flex-col md:flex-row md:text-left gap-8">
                      <div class="flex flex-col md:flex-row text-center md:text-left gap-8">
